@@ -1,5 +1,9 @@
 # Package an F# Avalonia app as a Flatpak
 
+> ### Flatpaks are not your thing?
+>
+> Try the packaging F# apps as a [snap](https://github.com/AngelMunoz/package-fsharp-to-snap/tree/main) then!
+
 > **_Note_**: While this example is written for F#, it should work for any .NET app.
 
 You're done with your app. Providing binaries is the next step, but you want to make it easy for your users to install and run your app. You also want to make it easy for you to distribute your app and even maybe auto-updates. You've heard about Flatpaks and want to try it out.
