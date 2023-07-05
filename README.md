@@ -79,7 +79,7 @@ And that's it. The app should show on the screen and now we have a flatpak for o
 
 ### Extra Notes
 
-Thanks to (@scitesy)[https://social.librem.one/@scitesy/110662886460321742] for providing me great resources to explore this area as well as the flatpak documentation.
+Thanks to [@scitesy](https://social.librem.one/@scitesy/110662886460321742) for providing me great resources to explore this area as well as the flatpak documentation.
 Also As noted by [@nlogozzo](https://mastodon.social/@nlogozzo/110662954309000176) (so much thanks, this helped me quite a lot!) when you run `flatpak-builder` you're not allowed to access the network anymore, so if you want to build from source your dotnet code you need to make a couple of extra workaround mainly involving the `sources` section of the manifest. So the dotnet sdk and NuGet have something to work with.
 
 As you may guess, the way we're building this right now makes apps quite heavy as we're not doing any trimming, or using any of the flatpak features to make the app lighter. But this is a good starting point.
